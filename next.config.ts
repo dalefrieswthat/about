@@ -30,6 +30,12 @@ const nextConfig = {
       },
     ];
   },
+  // Configure for GitHub Pages
+  output: 'export',
+  basePath: '/about',
+  images: {
+    unoptimized: true,
+  },
 };
 
 export default nextConfig;
